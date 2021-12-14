@@ -41,7 +41,7 @@ asdf install yt-dlp latest
 asdf global yt-dlp latest
 
 # Now yt-dlp commands are available
-yt-dlp version
+yt-dlp --version
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to

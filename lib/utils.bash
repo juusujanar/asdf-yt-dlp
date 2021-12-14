@@ -4,7 +4,7 @@ set -euo pipefail
 
 GH_REPO="https://github.com/yt-dlp/yt-dlp"
 TOOL_NAME="yt-dlp"
-TOOL_TEST="yt-dlp version"
+TOOL_TEST="yt-dlp --version"
 
 fail() {
   echo -e "asdf-$TOOL_NAME: $*"
